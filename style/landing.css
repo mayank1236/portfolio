@@ -1,0 +1,43 @@
+.landing .wrapper {
+    display: flex;
+}
+
+.landing .col-2 {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.landing .content h1 {
+    font-size: 2.8rem;
+}
+
+.landing .content p {
+    font-size: 1rem;
+}
+
+.landing .content > * {
+    margin: 10px 0;
+}
+
+.landing .content > *:last-child {
+    margin-bottom: 0;
+}
+
+.landing .content > *:first-child {
+    margin-top: 0;
+}
+
+.landing .img-box {
+    width: 70%;
+    margin: 0 0 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.landing .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
