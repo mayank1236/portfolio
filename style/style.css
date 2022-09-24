@@ -1,3 +1,7 @@
+@import './landing.css';
+@import './nav.css';
+@import './services.css';
+
 * {
     margin: 0;
     padding: 0;
@@ -74,6 +78,7 @@ body {
 
 section {
     padding: 50px 0px;
+    z-index: 1;
 }
 
 section:last-of-type {

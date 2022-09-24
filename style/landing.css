@@ -50,7 +50,15 @@
     margin-top: 0; 
 }
 
-@media only screen and (min-width: 576px) and (max-width: 1150px) {
+/* 
+    576px
+    768px
+    768px
+    1200px
+    1400px
+*/
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
     /* .landing .col-2 .img-box {
         width: 300px;
         height: 420px;
