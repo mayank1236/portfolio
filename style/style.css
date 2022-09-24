@@ -14,13 +14,14 @@ ul {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: inherit;
 }
 
 body {
     position: relative;
     /* background: rgb(243, 239, 148); */
     /* background: rgb(246, 244, 208); */
+    background: rgb(228, 249, 245);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
@@ -28,6 +29,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     overflow-x: hidden;
+    color: rgb(64, 81, 78); 
 }
 
 
@@ -48,18 +50,20 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-size: 13px;
+    font-weight: 800px;
     letter-spacing: 1px;
     padding: 15px 25px;
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    background-color: rgb(32, 32, 32);
-    color: white;
+    /* background-color: rgb(32, 32, 32); */
+    background-color: rgb(64, 81, 78);
+    color: rgb(228, 249, 245);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .cta .arrow {
-    background-color: #ffffff;
+    background-color: rgb(228, 249, 245);
     -webkit-mask: url(../assets/icons/arrow-right-solid.svg) no-repeat center;
     mask: url(../assets/icons/arrow-right-solid.svg) no-repeat center;
     width: 13px;
@@ -77,7 +81,7 @@ body {
 }
 
 section {
-    padding: 50px 0px;
+    padding: 55px 0px 150px;
     z-index: 1;
 }
 
@@ -85,15 +89,13 @@ section:last-of-type {
     padding-bottom: 0;
 }
 
-section:first-of-type {
-    padding-top: 0;
-}
-
 .bg-box {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgb(246, 244, 208);
+    /* background-color: rgb(246, 244, 208); */
+    background-color: rgb(17, 153, 158, 0.5);
+
     width: 50%;
     height: 89vh;
     z-index: -1;
