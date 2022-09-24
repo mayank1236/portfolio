@@ -14,6 +14,7 @@
 .services .content {
     width: 70%;
     padding: 0 40px 0 0;
+    font-size: 18px;
 }
 
 .services .content > * {
@@ -43,4 +44,16 @@
 .services .content div ul {
     list-style-type: disc;
     list-style-position: inside;
+    
+    line-height: 30px;
+}
+
+.services .content div p {
+    font-weight: 700;
+}
+
+.services h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(17, 153, 158);
 }

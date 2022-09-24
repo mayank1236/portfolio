@@ -10,31 +10,41 @@ header {
     width: 100%;
     padding: 20px 0;
     z-index: 10; 
-
-    transition: color 0.2s ease-in-out;
 }
 
+.navbar .nav {
+    min-width: 453px;
+}
 
-.navbar .container, .nav, .nav-list {
+.logo-box {
+    padding-right: 15px;
+}
+
+.logo {
+    font-family: 'Ruda', sans-serif;
+    font-size: 40px;
+}
+
+.navbar .container, .nav, .navbar ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-list {
-    margin-right: 10px;
+.navbar ul {
+    margin-right: 30px;
     text-transform: uppercase;
 }
 
-.nav-item {
-    margin: 0 5px;
+.navbar li{
+    margin: 0 15px;
 }
 
-.nav-item:first-child {
+.navbar li:first-child {
     margin-left: 0;
 }
 
-.nav-item:last-child {
+.navbar li:last-child {
     margin-right: 0;
 }
 
