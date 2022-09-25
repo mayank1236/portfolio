@@ -1,0 +1,34 @@
+.portfolio {
+    padding: 0;
+}
+
+.portfolio .img-box {
+    height: 230px;
+    border-radius: 3.75px;
+}
+
+.portfolio .img-box img {
+    object-fit: fill;
+}
+
+.project:nth-child(2n) .col-2-box {
+    flex-direction: row-reverse;
+}
+
+.portfolio .col-2 {
+    position: relative;
+    margin-bottom: calc(0.3 * 230px);
+}
+
+.portfolio .mobile {
+    position: absolute;
+    top: 30%;
+}
+
+.portfolio .project {
+    padding: 175px 0;
+}
+
+.portfolio p {
+    opacity: 0.8;
+}
