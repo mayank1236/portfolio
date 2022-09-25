@@ -1,6 +1,6 @@
-.portfolio {
+/* .portfolio {
     padding: 0;
-}
+} */
 
 .portfolio .img-box {
     height: 250px;
@@ -34,7 +34,7 @@
 }
 
 .portfolio .project {
-    padding: 175px 0;
+    padding: 100px 0;
 }
 
 .portfolio p {
