@@ -13,20 +13,6 @@
 
 .services .content {
     width: 70%;
-    padding: 0 40px 0 0;
-    font-size: 18px;
-}
-
-.services .content > * {
-    margin: 15px 0;
-}
-
-.services .content > *:last-child {
-    margin-bottom: 0;
-}
-
-.services .content > *:first-child {
-    margin-top: 0;
 }
 
 .services .content div > * {
@@ -50,10 +36,4 @@
 
 .services .content div p {
     font-weight: 700;
-}
-
-.services h2 {
-    font-size: 50px;
-    font-weight: 700;
-    color: rgb(17, 153, 158);
 }

@@ -1,0 +1,27 @@
+h1 {
+    font-size:  63px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    color:rgb(17, 153, 158);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(17, 153, 158);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+/* h4 {} */
+
+/* h5 {} */
+
+/* h6 {} */
+
+/* p {
+} */

@@ -1,0 +1,85 @@
+@import './landing.css';
+@import './nav.css';
+@import './services.css';
+@import './about.css';
+
+@import './components/content.css';
+@import './components/section.css';
+@import './components/interact.css';
+
+/* Color Palette
+    light: rgb(228, 249, 245)
+    bright: rgb(48, 227, 202)
+    solid: rgb(64, 81, 78)
+*/
+
+/*  Screen Breakpoints: 
+    576px
+    768px
+    768px
+    1200px
+    1400px
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    
+    background: rgb(228, 249, 245);
+    color: rgb(64, 81, 78); 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    
+    overflow-x: hidden;
+}
+
+.bg-box {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: rgb(17, 153, 158, 0.1);   
+}
+
+.img-box {
+    width: 380px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: 10px 10px 40px 6px rgb(0 0 0 / 20%);
+}
+
+
+.testimonial {
+    display: none;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {}
+
+@media only screen and (max-width: 576px) {}
