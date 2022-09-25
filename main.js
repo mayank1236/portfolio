@@ -1,6 +1,9 @@
 //EVENTS
+window.onload = () => {
+    fixedNavBg();
+}
+
 window.onscroll = () => {
-    
     fixedNavBg();
 }
 
