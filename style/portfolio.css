@@ -3,12 +3,19 @@
 }
 
 .portfolio .img-box {
-    height: 230px;
+    height: 250px;
     border-radius: 3.75px;
+    border: 1px solid rgb(0,0,0, 0.2);
+    z-index: 1;
 }
 
 .portfolio .img-box img {
     object-fit: fill;
+}
+
+.portfolio .img-box:hover {
+    z-index: 3;
+    cursor: pointer;
 }
 
 .project:nth-child(2n) .col-2-box {
@@ -23,6 +30,7 @@
 .portfolio .mobile {
     position: absolute;
     top: 30%;
+    z-index: 2;
 }
 
 .portfolio .project {
