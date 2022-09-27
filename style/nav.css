@@ -12,9 +12,9 @@ header {
     z-index: 10; 
 }
 
-.navbar .nav {
+/* .navbar .nav {
     min-width: 453px;
-}
+} */
 
 .logo-box {
     padding-right: 15px;
@@ -38,6 +38,22 @@ header {
 
 .navbar li{
     margin: 0 15px;
+    position: relative;
+}
+
+.navbar li a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0%;
+    height: 5px;
+    background-color: rgb(17, 153, 158);
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar li a:hover:after {
+    width: 100%;
 }
 
 .navbar li:first-child {

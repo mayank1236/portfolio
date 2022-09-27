@@ -37,7 +37,7 @@ footer .card > *:last-child {
     justify-content: space-around;
 }
 
-.socials img {
+.socials img{
     width: 30px;
     height: 30px;
     filter: invert(30%) sepia(19%) saturate(370%) hue-rotate(120deg) brightness(88%) contrast(88%);
@@ -59,4 +59,45 @@ footer .card > *:last-child {
 .footer-row:last-child {
     font-size: 17px;
     opacity: 0.9;
+}
+
+footer .email {
+    position: relative;
+    text-transform: lowercase;
+    border: 2px solid rgb(64, 81, 78);
+    display: flex;
+    align-items: center;
+}
+
+footer .email span {
+    width: 50px;
+    height: 50px;
+    border-left: 2px solid rgb(64, 81, 78);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .email img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .email p {
+    padding: 0 10px
+}
+
+footer .email:before {
+    content: 'copy to clipboard!';
+    position: absolute;
+    padding: 10px;
+    top: -50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background: rgb(17, 153, 158, 0.1);
+    display: none;
+}
+
+footer .email:hover:before {
+    display:block;
 }
