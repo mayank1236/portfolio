@@ -1,13 +1,15 @@
-@import './landing.css';
-@import './nav.css';
-@import './services.css';
-@import './portfolio.css';
-@import './about.css';
-@import './footer.css';
+@import './sections/landing.css';
+@import './sections/nav.css';
+@import './sections/services.css';
+@import './sections/portfolio.css';
+@import './sections/about.css';
+@import './sections/footer.css';
 
 @import './components/content.css';
-@import './components/section.css';
+@import './components/cards.css';
 @import './components/button.css';
+
+@import './responsive/mobile.css';
 
 /* Color Palette
     light: rgb(228, 249, 245)
@@ -80,7 +82,3 @@ body {
 .testimonial {
     display: none;
 }
-
-@media only screen and (min-width: 576px) and (max-width: 1200px) {}
-
-@media only screen and (max-width: 576px) {}

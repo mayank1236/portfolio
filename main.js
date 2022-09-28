@@ -20,10 +20,6 @@ function fixedNavBg() {
     
     let shadow = `rgba(50, 50, 93, ${opacity * 0.25}) 0px 6px 12px -2px, rgba(0, 0, 0,  ${opacity * 0.3}) 0px 3px 7px -3px`;
     
-    // nav.style.boxShadow = shadow;
-    // nav.style.backgroundColor = `rgb(228, 249, 245, ${opacity})`;
-    // logo.style.fontSize = `${ (10 * (1 - opacity)) + 28 }px`;
-    
     styling(
         nav, 
         [

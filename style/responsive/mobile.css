@@ -1,0 +1,49 @@
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+    .logo {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 0 0 30px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .col-2-box {
+        margin: 0;
+        width: 100%;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .col-2 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .col-2:first-child {
+        margin-top: 0;
+    }
+
+    .col-2:last-child {
+        margin-bottom: 0;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .img-box {
+        height: 360px !important;
+    }
+}
