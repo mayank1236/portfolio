@@ -9,8 +9,6 @@
 @import './components/cards.css';
 @import './components/button.css';
 
-@import './responsive/mobile.css';
-
 /* Color Palette
     light: rgb(228, 249, 245)
     bright: rgb(48, 227, 202)

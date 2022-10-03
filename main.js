@@ -1,16 +1,14 @@
-//global
-toggleMenu();
+// //global
+// toggleMenu();
 
 //EVENTS
 window.onresize = () => {
     fixedNavBg();
-
     toggleMenu();
 }
 
 window.onload = () => {
     fixedNavBg();
-
     toggleMenu();
 }
 
@@ -63,5 +61,8 @@ function getLogoFont(width) {
 }
 
 function toggleMenu() {
-
+    navMenu.style.display = 'flex';
+    if(window.innerWidth <= 576) {
+        navMenu.style.display = 'none';
+    }
 }

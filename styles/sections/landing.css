@@ -2,6 +2,7 @@
     right: 0;
     width: 50%;
     height: 89vh;
+    max-height: 680px;
     border-bottom-left-radius: 15px;
 }
 
