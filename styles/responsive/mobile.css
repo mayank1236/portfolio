@@ -44,7 +44,7 @@
 
     .col-2 {
         width: 100%;
-        margin: 10px auto;
+        margin: 20px auto;
     }
 
     /* .col-2:first-child {
@@ -59,12 +59,20 @@
         padding: 0;
     }
 
+    .content > * {
+        margin: 10px 0;
+    }
+
     .img-box {
         height: 360px;
     }
 
     .btn {
         width: 100%;
+    }
+
+    .btn.link {
+        width: auto;
     }
 
     /* Sections */
@@ -92,5 +100,17 @@
 
     .portfolio .project {
         padding: 0;
+    }
+
+    .portfolio .img-box {
+        height: 200px;
+    }
+
+    .portfolio .mobile {
+        left: 5%;
+    }
+
+    .portfolio .project:last-of-type .col-2:last-child {
+        margin-bottom: 0;
     }
 }
