@@ -62,7 +62,10 @@ function getLogoFont(width) {
 
 function toggleMenu() {
     navMenu.style.display = 'flex';
-    if(window.innerWidth <= 576) {
+    if(window.innerWidth <= 768) {
         navMenu.style.display = 'none';
     }
 }
+
+
+// variables, data types
